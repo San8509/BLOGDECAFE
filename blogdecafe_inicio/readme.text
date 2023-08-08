@@ -1,0 +1,19 @@
+display: inline-block; respeta el margin y el width q le demos
+display: inline, no respeta el margin y el width, por lo cual no se aplica el valor q
+le demos al elemento
+
+list-style: none; elimina las viñetas
+
+last-of-type: selecciona el ultimo elemento de la lista 
+
+/*GLOBALES*/
+.contenedor {
+  max-width: 120rem; resumiendo el width
+  width: 90%; resumiendo el width
+  width: min(90%, 120rem); con menos codigo es lo mismo
+  margin: 0 auto;
+}
+
+flex: 1;  depende del valor q le demos sera el factor de crecimiento
+
+width: calc(100% - 40px); usamos con ayuda del mediaqueries para evitar q se salga del contenedor
